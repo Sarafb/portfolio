@@ -435,16 +435,19 @@ a.icon {
   background: url('../images/header-exhale.jpg') no-repeat;
 }
 .header-three {
-  background: url('../images/selva-header.png') no-repeat;
+  background: url('../images/selva-header1.jpg') no-repeat;
 }
 .header-four {
   background: url('../images/mom-header.jpg') no-repeat;
 }
 .header-five {
-  background: url('../images/otw-header.jpg') no-repeat;
+  background: url('../images/otw-header1.jpg') no-repeat;
 }
 .header-six {
   background: url('../images/cookies-header.jpg') no-repeat;
+}
+.header-seven {
+  background: url('../images/contact-header.jpg') no-repeat;
 }
 
 /* Portfolio section styles
@@ -750,9 +753,13 @@ a.icon {
 
 #contact .col-md-4 {
   background: #fff;
-  padding: 62px 0px 32px 42px;
+  padding: 52px 42px 52px 42px;
   position: relative;
-  bottom: -50px;
+
+}
+
+.fa-linkedin{
+	font-size: 32px;
 }
 
 
@@ -797,6 +804,10 @@ footer {
 }
 .social-icon li a:hover {
   background: #ffffff;
+}
+
+.copyright{
+	margin-top: 80px;
 }
 
 /* Responsive Mobile styles
