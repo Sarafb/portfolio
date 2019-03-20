@@ -441,7 +441,10 @@ a.icon {
   background: url('../images/mom-header.jpg') no-repeat;
 }
 .header-five {
-  background: url('../images/header-five-bg.jpg') no-repeat;
+  background: url('../images/otw-header.jpg') no-repeat;
+}
+.header-six {
+  background: url('../images/cookies-header.jpg') no-repeat;
 }
 
 /* Portfolio section styles
@@ -502,6 +505,15 @@ a.icon {
 .mupi{
 	max-width: 400px;
 	margin:0, auto;
+}
+
+.video{
+	display:flex;
+	align-items: center;
+}
+
+.video img{
+
 }
 
 /*filter css*/
@@ -583,6 +595,12 @@ a.icon {
 
 #single-project img {
   padding-top: 14px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* about section styles
