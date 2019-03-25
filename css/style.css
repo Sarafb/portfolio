@@ -184,6 +184,7 @@ nav a {
   -moz-transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+	text-indent: 0px;
 }
 
 .brand a {
@@ -246,11 +247,22 @@ nav a {
     background: transparent;
   }
   .navicon {
-    padding-right: 10px;
+    padding: 10px;
+		margin: 10px;
+		-webkit-justify-content: flex-start;
+	  -ms-flex-pack: start;
+	  justify-content: flex-start;
   }
   nav ul.right {
   float: left;
   }
+}
+
+nav a {
+  padding: 0px;
+	font-size: 18px;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
 }
 
 a.icon {
@@ -390,6 +402,10 @@ a.icon {
   right: 32px;
   color: #fff;
   cursor: pointer;
+}
+
+.navicon{
+ padding: 24px 10px 10px 24px;
 }
 
 /* header section styles
@@ -852,11 +868,31 @@ footer {
 	padding-top: 80px !important;
   }
 
+	.nav-container{
+		padding-left: 24px;
+		min-height: 230px;
+		padding-top: 30px !important;
+		margin-bottom: 10px;
+	}
+
+	.navicon{
+		margin: 0px;
+		padding: 24px 10px 0px 24px;
+}
+
+	}
+
   #about .col-md-4,
   #single-project .col-md-3 {
     padding-bottom: 32px;
   }
 
+}
+
+#portfolio {
+  text-align: center;
+  padding-top: 0rem;
+  padding-bottom: 6rem;
 }
 
 
@@ -877,6 +913,9 @@ footer {
   #contact {
     padding-bottom: 4rem;
   }
+	br{
+		display: none;
+	}
 
   #contact .col-md-4 {
     padding: 32px 20px 22px 62px;
