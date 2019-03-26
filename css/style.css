@@ -535,6 +535,8 @@ a.icon {
 
 }
 
+
+
 /*filter css*/
 .filter-wrapper {
     width: 100%;
@@ -893,6 +895,13 @@ footer {
   text-align: center;
   padding-top: 0rem;
   padding-bottom: 6rem;
+}
+
+footer {
+  background: #141414;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
 }
 
 
