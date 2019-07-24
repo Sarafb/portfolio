@@ -98,6 +98,7 @@ img {
 }
 
 
+
 /* preloader styles
 /* ========================================== */
 .preloader {
@@ -522,7 +523,7 @@ a.icon {
 }
 
 .mupi{
-	max-width: 400px;
+	width: 400px;
 	margin:0, auto;
 }
 
